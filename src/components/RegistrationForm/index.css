@@ -1,0 +1,91 @@
+.RegistrationForm-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.RegistrationForm {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.Registration-heading {
+  color: #ea580c;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+}
+.firstName-container {
+  margin: 10px;
+}
+.firstName-label {
+  color: #475569;
+  font-size: 13px;
+  font-family: Roboto;
+}
+.firstName-input {
+  width: 100%;
+  padding: 5px 7px 5px 7px;
+  outline: none;
+  border-width: 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px 0px #bfbfbf;
+}
+.lastName-input {
+  width: 100%;
+  padding: 5px 7px 5px 7px;
+  outline: none;
+  border-width: 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px 0px #bfbfbf;
+}
+.first-input {
+  background-color: #fef2f4;
+  box-shadow: 0px 2px 6px 0px #ff0b37;
+}
+.last-input {
+  background-color: #fef2f4;
+  box-shadow: 0px 2px 6px 0px #ff0b37;
+}
+.required-first {
+  color: #ff0b37;
+  font-size: 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  padding: 7px 8px 7px 8px;
+  border-width: 0px;
+  outline: none;
+  color: #ffffff;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.Successfully-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.success-logo {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.submit-name{
+  color:#475569;
+  font-weight: bold; 
+  margin-bottom:30px;
+}
